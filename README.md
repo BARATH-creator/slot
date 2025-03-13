@@ -1,5 +1,7 @@
 # Ex03 Time Table
-## Date: 16/11/2024
+## Date: 13/03/2025
+### NAME: BARATH S
+#### REGISTER NUMBER:212224240022
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -23,130 +25,128 @@ Add your timetable using ```<td>``` tag.
 ### STEP 6
 Execute the program using runserver command.
 
-## PROGRAM
-~~~
-<!DOCTYPE html>
+## PROGRAM 
+
+```
+
+
 <html>
-    <head>
-        
-    </head>
-    <body>
-        <center>
-            <img src='logo.png' height="100" width="540"
-        </center>
+<head>
+    <title>slot timetable</title>
+</head>
+<body>
+    <center> 
+        <img src="/static/logo.png" height="100" width="500">
         <br>
-    <table border="2" cellpadding="5" cellspacing="10" bgcolor="lightblue" align="center">
-        <caption><b>SLOT TIME TABLE - W ALLEN (24900645)</b></caption>
-        <tr>
-        <th>DAYS</th>
-        <th>8 to 10</th>
-        <th>10 to 12</th>
-        <th>1 to 3</th>
-        <th>3 to 5</th>
-        </tr>
-        <tr>
-        <td>Monday</td>
-        <td></td>
-        <td bgcolor="yellow">Web dev</td>
-        <td bgcolor="blue">CDS</td>
-        <td></td>
-        </tr>
-        <tr >
-            <td >Tuesday</td>
-            <td bgcolor="green">Prototyping of IoT systems</td>
-            <td></td>
-            <td bgcolor="red">Digital Electronics</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td bgcolor="red">Digital Electronics</td>
-            <td bgcolor="yellow">Wed dev</td>
-            <td>Mentor Meet</td>
-            <td bgcolor="green">Prototyping of IoT systems</td>
-        </tr>
-        <tr>
-            <td>Thursday</td>
-            <td bgcolor="gold">PQC</td>
-            <td bgcolor="orange">EMPD</td>
-            <td bgcolor="pink">Comm English</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Friday</td>
-            <td></td>
-            <td bgcolor="pink">Comm English</td>
-            <td bgcolor="orange">EMPD</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Saturday</td>
-            <td></td>
-            <td bgcolor="gold">PQC</td>
-            <td bgcolor="yellow">Web dev</td>
-            <td></td>
-        </tr>
-    </table>
-    <br>
-    <table border="2" cellpadding="5" cellspacing="10" bgcolor="lightblue" align="center">
-        <tr>
-        <th>S.no</th>
-        <th>Subject code</th>
-        <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>19AI303</td>
-            <td>Engineering Mechanic and Product Development</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>19AI404</td>
-            <td>Fundamental of Web Application Development</td>
-        </tr>
-        <tr>
-            
-            <td>3</td>
-            <td>19CS420</td>
-            <td>Prototyping of IoT systems</td>
-           
-        </tr>
-        <tr>
-            
-            <td>4</td>
-            <td>19EE404</td>
-            <td>Digital Electronics</td>
-            
-        </tr>
-        <tr>
-            
-            <td>5</td>
-            <td>19EN101</td>
-            <td>Communicative English</td>
-            
-        </tr>
-        <tr>
-            
-            <td>6</td>
-            <td>19EY708</td>
-            <td>Career Development Skills</td>
-            
-        </tr>
-        <tr>
-            
-            <td>7</td>
-            <td>SH3214</td>
-            <td>Physics for Quantum Computing</td>
-            
-        </tr>
-    </table>
-    </body>
+        <table align="center" width="500" cellsapacing="2" cellpadding="5" border="5">
+            <caption><b>SLOT TIME TABLE - BARATH S (212224240022)</b></caption>
+            <tr align="center">
+                <th bgcolor="green">DAY/TIME</th>
+                <th bgcolor="green">MONDAY</th>
+                <th bgcolor="green">TUESDAY</th>
+                <th bgcolor="green">WEDNESDAY</th>
+                <th bgcolor="green">THURSDAY</th>
+                <th bgcolor="green">FRIDAY</th>
+                <th bgcolor="green">SATURDAY</th>
+            </tr>
+            <tr align="center">
+                <th bgcolor="Red">8-10</th>
+                <td bgcolor="blue">Fundamental of Web Application Development</td>
+                <td bgcolor="blue">Digital Electronics</td>
+                <td bgcolor="blue">Chemistry</td>
+                <td bgcolor="blue">Digital Electronics</td>
+                <td bgcolor="yellow">Free slot</td>
+                <td bgcolor="blue">Creative Skill</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="Red">10-12</th>
+                <td bgcolor="blue">Operating System</td>
+                <td bgcolor="blue">Computer Network</td>
+                <td bgcolor="blue">Free slot</td>
+                <td bgcolor="blue">Computer Network</td>
+                <td bgcolor="blue">Python Programming</td>   
+                <td bgcolor="blue">Algebra and Number Theory</td> 
+            </tr>
+            <tr align="center">
+                <th bgcolor="Red">1-3</th>
+                <td bgcolor="blue">Algebra and Number Theory</td>
+                <td bgcolor="blue">Chemistry</td>
+                <td bgcolor="blue">Operating System</td>
+                <td bgcolor="blue">Fundamental of Web Application Development</td>
+                <td bgcolor="blue">Fundamental of Web Application Development</td>   
+                <td bgcolor="blue">Algebra and Number Theory</td> 
+            </tr>
+            <tr align="center">
+                <th bgcolor="Red">3-5</th>
+                <td bgcolor="yellow">Free slot</td>
+                <td bgcolor="yellow">Free slot</td>
+                <td bgcolor="yellow">Free slot</td>
+                <td bgcolor="blue">Python Programming</td>
+                <td bgcolor="yellow">Free slot</td>   
+                <td bgcolor="yellow">Free slot</td> 
+            </tr>
+        </table>
+        <br>
+        <table align="center" cellspacing="2" cellpadding="5" border="5">
+            <tr align="center">
+                <th>s. No.</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+            <tr>
+                <td align="center">1.</td>
+                <td align="center">19AI414</td>
+                <td>Fundamental of Web Application Development</td>
+            </tr>
+            <tr>
+                <td align="center">2.</td>
+                <td align="center">19AI301</td>
+                <td>Python Programming</td>
+            </tr>
+            <tr>
+                <td align="center">3.</td>
+                <td align="center">19CS405</td>
+                <td>Operating System</td>
+            </tr>
+            <tr>
+                <td align="center">4.</td>
+                <td align="center">19CS406</td>
+                <td>Computer Network</td>
+            </tr>
+            <tr>
+                <td align="center">5.</td>
+                <td align="center">19CY205</td>
+                <td>Principles of Chemistry in Engineering</td>
+            </tr>
+            <tr>
+                <td align="center">6.</td>
+                <td align="center">19EE404</td>
+                <td>Digital Electronics</td>
+            </tr>
+            <tr>
+                <td align="center">7.</td>
+                <td align="center">19EY702</td>
+                <td>Creative Skill for Communication</td>
+            </tr>
+            <tr>
+                <td align="center">8.</td>
+                <td align="center">19MA212</td>
+                <td>Algebra and Number Theory</td>
+            </tr>
+        </table>
+    </center>
+</body>
 </html>
-~~~
+
+
+```
 
 ## OUTPUT
 
-![alt text](<Screenshot 2024-11-19 110644.png>)
+
+![Screenshot 2025-03-13 090548](https://github.com/user-attachments/assets/524c033d-50aa-4aff-8f23-f070ef2a01dd)
+
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
